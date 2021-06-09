@@ -1,0 +1,7 @@
+N1=3
+N2=3
+K=3
+M=2
+Nr=30
+MalInitial=vest
+MalFinal=est

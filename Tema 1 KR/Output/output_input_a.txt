@@ -1,0 +1,41 @@
+Uniform Cost Search:
+
+*****************************************
+A* cu euristica banala:
+
+*****************************************
+A* cu euristica 1:
+
+*****************************************
+A* cu euristica 2:
+
+*****************************************
+A* cu euristica neadmisibila:
+
+*****************************************
+A* optim cu euristica banala:
+
+*****************************************
+A* optim cu euristica 1:
+
+*****************************************
+A* optim cu euristica 2:
+
+*****************************************
+A* optim cu euristica neadmisibila:
+
+*****************************************
+IDA* cu euristica banala 
+Nu exista solutii.
+
+*****************************************
+IDA* cu euristica 1 
+Nu exista solutii.
+
+*****************************************
+IDA* cu euristica 2 
+Nu exista solutii.
+
+*****************************************
+IDA* cu euristica neadmisibila 
+Nu exista solutii.

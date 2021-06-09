@@ -1,0 +1,1550 @@
+Uniform Cost Search:
+Timpul maxim de executie a expirat.
+
+*****************************************
+A* cu euristica banala:
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 3 canibali si 0 misionari si 0 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 3 Misionari: 0 Hrana: 0
+Malul vestic:
+Canibali: 2 Misionari: 4 Hrana: 3
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 3 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 2 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 0
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 2.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 3 Misionari: 2 Hrana: 1.5
+Malul estic:
+Canibali: 2 Misionari: 2 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 1.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 2 Misionari: 2 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 2 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 2 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 11521
+Numarul total de succesori calculati: 54979
+Timp de executie: 86.8 s
+
+-----------------------------------------
+
+*****************************************
+A* cu euristica 1:
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 3 canibali si 0 misionari si 0 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 3 Misionari: 0 Hrana: 0
+Malul vestic:
+Canibali: 2 Misionari: 4 Hrana: 3
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 3 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 2 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 1 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 4 Misionari: 0 Hrana: 1
+Malul vestic:
+Canibali: 1 Misionari: 4 Hrana: 2
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 2 Misionari: 4 Hrana: 2
+Malul estic:
+Canibali: 3 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 2 Misionari: 2 Hrana: 1.5
+Malul estic:
+Canibali: 3 Misionari: 2 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 2 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 1.0
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 1.0
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 1.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 12410
+Numarul total de succesori calculati: 39390
+Timp de executie: 42.32 s
+
+-----------------------------------------
+
+*****************************************
+A* cu euristica 2:
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 3 canibali si 0 misionari si 0 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 3 Misionari: 0 Hrana: 0
+Malul vestic:
+Canibali: 2 Misionari: 4 Hrana: 3
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 3 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 2 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 0
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 2.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 3 Misionari: 2 Hrana: 1.5
+Malul estic:
+Canibali: 2 Misionari: 2 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 1.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 2 Misionari: 2 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 2 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 2 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 14443
+Numarul total de succesori calculati: 49440
+Timp de executie: 75.22 s
+
+-----------------------------------------
+
+*****************************************
+A* cu euristica neadmisibila:
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 1.0 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 1 Misionari: 1 Hrana: 1
+Malul vestic:
+Canibali: 4 Misionari: 3 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 4 Misionari: 4 Hrana: 1.5
+Malul estic:
+Canibali: 1 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 2 misionari si 0.0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 2 Misionari: 2 Hrana: 1
+Malul vestic:
+Canibali: 3 Misionari: 2 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 3 Misionari: 3 Hrana: 1.0
+Malul estic:
+Canibali: 2 Misionari: 1 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 9771
+Numarul total de succesori calculati: 57619
+Timp de executie: 100.81 s
+
+-----------------------------------------
+
+*****************************************
+A* optim cu euristica banala:
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 1 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 2 Misionari: 0 Hrana: 1
+Malul vestic:
+Canibali: 3 Misionari: 4 Hrana: 2
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 4 Misionari: 4 Hrana: 2
+Malul estic:
+Canibali: 1 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 3 canibali si 0 misionari si 0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 4 Misionari: 0 Hrana: 1
+Malul vestic:
+Canibali: 1 Misionari: 4 Hrana: 2
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 2 Misionari: 4 Hrana: 2
+Malul estic:
+Canibali: 3 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 0.5
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 1
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 0.5
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 1
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 1
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.5
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 1
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.5
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 508
+Numarul total de succesori calculati: 4714
+Timp de executie: 0.44 s
+
+-----------------------------------------
+
+*****************************************
+A* optim cu euristica 1:
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 3 canibali si 0 misionari si 0 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 3 Misionari: 0 Hrana: 0
+Malul vestic:
+Canibali: 2 Misionari: 4 Hrana: 3
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 3 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 2 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 1 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 4 Misionari: 0 Hrana: 1
+Malul vestic:
+Canibali: 1 Misionari: 4 Hrana: 2
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 2 Misionari: 4 Hrana: 2
+Malul estic:
+Canibali: 3 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 2 Misionari: 2 Hrana: 1.5
+Malul estic:
+Canibali: 3 Misionari: 2 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 2 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 1.0
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 1.0
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 1.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 486
+Numarul total de succesori calculati: 3690
+Timp de executie: 0.54 s
+
+-----------------------------------------
+
+*****************************************
+A* optim cu euristica 2:
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 1 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 2 Misionari: 0 Hrana: 1
+Malul vestic:
+Canibali: 3 Misionari: 4 Hrana: 2
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 4 Misionari: 4 Hrana: 2
+Malul estic:
+Canibali: 1 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 3 canibali si 0 misionari si 0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 4 Misionari: 0 Hrana: 1
+Malul vestic:
+Canibali: 1 Misionari: 4 Hrana: 2
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 2 Misionari: 4 Hrana: 2
+Malul estic:
+Canibali: 3 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 0.5
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 1
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 0.5
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 1
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 1
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.5
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 1
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.5
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 541
+Numarul total de succesori calculati: 4548
+Timp de executie: 1.6 s
+
+-----------------------------------------
+
+*****************************************
+A* optim cu euristica neadmisibila:
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 1 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 2 Misionari: 0 Hrana: 1
+Malul vestic:
+Canibali: 3 Misionari: 4 Hrana: 2
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 4 Misionari: 4 Hrana: 2
+Malul estic:
+Canibali: 1 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 3 canibali si 0 misionari si 0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 4 Misionari: 0 Hrana: 1
+Malul vestic:
+Canibali: 1 Misionari: 4 Hrana: 2
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 2 Misionari: 4 Hrana: 2
+Malul estic:
+Canibali: 3 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 0.5
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 1
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 1
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 2 Misionari: 1 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 3 Hrana: 1
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 1
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 1 Misionari: 1 Hrana: 0.0
+Malul estic:
+Canibali: 4 Misionari: 3 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 463
+Numarul total de succesori calculati: 5697
+Timp de executie: 0.92 s
+
+-----------------------------------------
+
+*****************************************
+IDA* cu euristica banala 
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 1.0 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 1 Misionari: 1 Hrana: 1
+Malul vestic:
+Canibali: 4 Misionari: 3 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 4 Misionari: 4 Hrana: 1.5
+Malul estic:
+Canibali: 1 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 2 misionari si 0.0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 2 Misionari: 2 Hrana: 1
+Malul vestic:
+Canibali: 3 Misionari: 2 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 3 Misionari: 3 Hrana: 1.0
+Malul estic:
+Canibali: 2 Misionari: 1 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 14
+Numarul total de succesori calculati: 258367
+Timp de executie: 9.5 s
+
+-----------------------------------------
+
+*****************************************
+IDA* cu euristica 1 
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 1.0 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 1 Misionari: 1 Hrana: 1
+Malul vestic:
+Canibali: 4 Misionari: 3 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 4 Misionari: 4 Hrana: 1.5
+Malul estic:
+Canibali: 1 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 2 misionari si 0.0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 2 Misionari: 2 Hrana: 1
+Malul vestic:
+Canibali: 3 Misionari: 2 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 3 Misionari: 3 Hrana: 1.0
+Malul estic:
+Canibali: 2 Misionari: 1 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 13
+Numarul total de succesori calculati: 108525
+Timp de executie: 3.14 s
+
+-----------------------------------------
+
+*****************************************
+IDA* cu euristica 2 
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 1.0 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 1 Misionari: 1 Hrana: 1
+Malul vestic:
+Canibali: 4 Misionari: 3 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 4 Misionari: 4 Hrana: 1.5
+Malul estic:
+Canibali: 1 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 2 misionari si 0.0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 2 Misionari: 2 Hrana: 1
+Malul vestic:
+Canibali: 3 Misionari: 2 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 3 Misionari: 3 Hrana: 1.0
+Malul estic:
+Canibali: 2 Misionari: 1 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 13
+Numarul total de succesori calculati: 189714
+Timp de executie: 6.28 s
+
+-----------------------------------------
+
+*****************************************
+IDA* cu euristica neadmisibila 
+Solutie:
+
+1)
+Malul vestic:
+Canibali: 5 Misionari: 4 Hrana: 3
+Malul estic:
+Canibali: 0 Misionari: 0 Hrana: 0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 1.0 unitati de hrana.
+
+2)
+Malul estic:
+Canibali: 1 Misionari: 1 Hrana: 1
+Malul vestic:
+Canibali: 4 Misionari: 3 Hrana: 1.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+3)
+Malul vestic:
+Canibali: 4 Misionari: 4 Hrana: 1.5
+Malul estic:
+Canibali: 1 Misionari: 0 Hrana: 1
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 2 misionari si 0.0 unitati de hrana.
+
+4)
+Malul estic:
+Canibali: 2 Misionari: 2 Hrana: 1
+Malul vestic:
+Canibali: 3 Misionari: 2 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+5)
+Malul vestic:
+Canibali: 3 Misionari: 3 Hrana: 1.0
+Malul estic:
+Canibali: 2 Misionari: 1 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 0 canibali si 3 misionari si 0.0 unitati de hrana.
+
+6)
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 1.0
+############################################
+
+>>> In barca mai sunt 3 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 0 canibali si 1 misionari si 0.0 unitati de hrana.
+
+7)
+Malul vestic:
+Canibali: 3 Misionari: 1 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 3 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 1 canibali si 1 misionari si 0.0 unitati de hrana.
+
+8)
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+9)
+Malul vestic:
+Canibali: 3 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 2 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+10)
+Malul estic:
+Canibali: 4 Misionari: 4 Hrana: 0.5
+Malul vestic:
+Canibali: 1 Misionari: 0 Hrana: 0.0
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul estic la malul vestic cu 1 canibali si 0 misionari si 0.0 unitati de hrana.
+
+11)
+Malul vestic:
+Canibali: 2 Misionari: 0 Hrana: 0.0
+Malul estic:
+Canibali: 3 Misionari: 4 Hrana: 0.5
+############################################
+
+>>> In barca mai sunt 2 locuri
+>>> Barca a plecat de pe malul vestic la malul estic cu 2 canibali si 0 misionari si 0.0 unitati de hrana.
+
+12)
+Malul estic:
+Canibali: 5 Misionari: 4 Hrana: 0.0
+Malul vestic:
+Canibali: 0 Misionari: 0 Hrana: 0.0
+############################################
+
+Cost: 19
+Nr noduri/Lungimea drumului: 12
+Numarul maxim de noduri memorate: 15
+Numarul total de succesori calculati: 506950
+Timp de executie: 20.58 s
+
+-----------------------------------------
